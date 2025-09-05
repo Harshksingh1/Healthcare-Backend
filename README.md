@@ -27,8 +27,7 @@ Supports user authentication (JWT), patient & doctor management, and patient-doc
 
  1. Clone the repository
 git clone https://github.com/Harshksingh1/Healthcare-Backend.git
-
-2.cd Healthcare-Backend
+     cd Healthcare-Backend
 
 
 3. Install dependencies
@@ -36,13 +35,13 @@ npm install
 4. Setup environment variables
 Create a .env file in the root folder (based on .env.example):
 
-PORT=4000
+  PORT=4000 
 
-MONGODB_URI=mongodb+srv://<user>:<password>@cluster0.abcd.mongodb.net/healthcare
+  MONGODB_URI=mongodb+srv://<user>:<password>@cluster0.abcd.mongodb.net/healthcare 
 
-JWT_SECRET=yourSecretKey
+  JWT_SECRET=yourSecretKey 
 
-JWT_EXPIRES_IN=7d
+  JWT_EXPIRES_IN=7d 
 
 4. Run the server
 npm run dev
